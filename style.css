@@ -66,7 +66,7 @@ a:hover {
 }
 
 .cv-button:hover {
-  background-color: #C97466;
+  background-color: #B25F52;
   text-decoration: none;
 }
 
@@ -81,8 +81,8 @@ a:hover {
 }
 
 .social-button:hover {
-  background-color: #C97466;
+  background-color: #B25F52;
   text-decoration: none;
-  border: 1px solid #C97466;
+  border: 1px solid #B25F52;
   color: #EBD8CF;
 }
