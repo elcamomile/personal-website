@@ -54,7 +54,7 @@ a:hover {
   background-color: #001F3F;
   color: #001F3F;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 9999px;
 }
 
 .cv-button:hover {
@@ -68,8 +68,8 @@ a:hover {
   background-color: #EBD8CF;
   color: #001F3F;
   text-decoration: none;
-  border: 2px solid #e74c3c;
-  border-radius: 5px;
+  border: 1px solid #D8BFB7;
+  border-radius: 9999px;
 }
 
 .social-button:hover {
