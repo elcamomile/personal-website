@@ -6,6 +6,11 @@ body {
   color: #001F3F;
 }
 
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
 header, section {
   padding-bottom: 20px;
 }
