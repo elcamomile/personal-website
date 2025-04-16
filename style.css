@@ -6,6 +6,10 @@ body {
   color: #001F3F;
 }
 
+header, section {
+  padding-bottom: 20px;
+}
+
 .profile-photo {
   width: 150px;
   height: 150px;
