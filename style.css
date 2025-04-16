@@ -51,8 +51,9 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   background-color: #001F3F;
-  color: #001F3F;
+  color: #EBD8CF;
   text-decoration: none;
+  border: 1px solid #001F3F;
   border-radius: 9999px;
 }
 
