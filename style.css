@@ -53,12 +53,12 @@ a:hover {
   background-color: #001F3F;
   color: #EBD8CF;
   text-decoration: none;
-  border: 1px solid #001F3F;
   border-radius: 9999px;
 }
 
 .cv-button:hover {
-  background: #0055aa;
+  background-color: #DB9F93;
+  text-decoration: none;
 }
 
 .social-button {
@@ -67,10 +67,13 @@ a:hover {
   background-color: #EBD8CF;
   color: #001F3F;
   text-decoration: none;
-  border: 1px solid #D8BFB7;
+  /*border: 1px solid #D8BFB7;*/
   border-radius: 9999px;
+  box-shadow: 0 2px 16px rgba(107, 137, 147, .16);
 }
 
 .social-button:hover {
-  background: #0055aa;
+  background-color: #DB9F93;
+  text-decoration: none;
+  border: 1px solid #DB9F93;
 }
