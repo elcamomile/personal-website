@@ -60,3 +60,18 @@ a:hover {
 .cv-button:hover {
   background: #0055aa;
 }
+
+.social-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #EBD8CF;
+  color: #001F3F;
+  text-decoration: none;
+  border: 2px solid #e74c3c;
+  border-radius: 5px;
+}
+
+.social-button:hover {
+  background: #0055aa;
+}
