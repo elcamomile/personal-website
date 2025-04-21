@@ -23,8 +23,11 @@ header, section {
   margin: 10px;
 }
 
-h1 {
+h1, section h2 {
   font-family: 'Unbounded', sans-serif;
+}
+
+h1 {
   margin-bottom: 5px;
 }
 
@@ -33,7 +36,6 @@ section {
 }
 
 section h2 {
-  font-family: 'Unbounded', sans-serif;
   font-size: 1.3em;
   margin-bottom: 10px;
 }
