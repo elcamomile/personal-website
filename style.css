@@ -24,7 +24,7 @@ header, section {
 }
 
 h1 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Unbounded', sans-serif;
   margin-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@ section {
 }
 
 section h2 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Unbounded', sans-serif;
   font-size: 1.3em;
   margin-bottom: 10px;
 }
