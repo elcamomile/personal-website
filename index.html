@@ -55,21 +55,45 @@
 		<section>
 			<h2>Connect with me</h2>
 			<p>If you want to create something together, exchange thoughts or just say hi, I’d be happy to hear from you!</p>
-      		<p>Send me an email to <a href="mailto:elvira.romashkina@gmail.com" target="_blank" rel="noopener noreferrer">elvira.romashkina@gmail.com</a> or connect on</p>
+      		<p>Send me an email to <a href="mailto:elvira.romashkina@gmail.com" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'email_clicked', {
+				'event_category': 'connect',
+				'event_label': 'Email Link'
+			  })">elvira.romashkina@gmail.com</a> or connect on</p>
 			<p>
-				<a class="social-button" href="https://www.linkedin.com/in/elvira-romashkina/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        		<a class="social-button" href="https://www.instagram.com/elvira_romashkina/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        		<a class="social-button" href="https://t.me/elvira_romashkina" target="_blank" rel="noopener noreferrer">Telegram</a>
+				<a class="social-button" href="https://www.linkedin.com/in/elvira-romashkina/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'linkedin_clicked', {
+					'event_category': 'connect',
+					'event_label': 'LinkedIn Profile Link'
+				  })">LinkedIn</a>
+        		<a class="social-button" href="https://www.instagram.com/elvira_romashkina/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'instagram_clicked', {
+					'event_category': 'connect',
+					'event_label': 'Instagram Profile Link'
+				  })">Instagram</a>
+        		<a class="social-button" href="https://t.me/elvira_romashkina" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'telegram_clicked', {
+					'event_category': 'connect',
+					'event_label': 'Telegram Profile Link'
+				  })">Telegram</a>
   		</p>
 		</section>
 		<section>
 			<h2>My professional experience</h2>
 				<ul>
-					<li><a href="https://www.polarsteps.com/" target="_blank" rel="noopener noreferrer">Polarsteps</a> - App to plan, track and relive trips</li>
-					<li><a href="https://www.studocu.com/" target="_blank" rel="noopener noreferrer">Studocu</a> - Platform with study notes for students worldwide</li>
-					<li><a href="https://www.siilo.com/" target="_blank" rel="noopener noreferrer">Siilo</a> - Secure messenger for healthcare professionals</li>
+					<li><a href="https://www.polarsteps.com/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'polarsteps_clicked', {
+						'event_category': 'experience',
+						'event_label': 'Polarsteps Link'
+					  })">Polarsteps</a> - App to plan, track and relive trips</li>
+					<li><a href="https://www.studocu.com/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'studocu_clicked', {
+						'event_category': 'experience',
+						'event_label': 'Studocu Link'
+					  })">Studocu</a> - Platform with study notes for students worldwide</li>
+					<li><a href="https://www.siilo.com/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'siilo_clicked', {
+						'event_category': 'experience',
+						'event_label': 'Siilo Link'
+					  })">Siilo</a> - Secure messenger for healthcare professionals</li>
     		    </ul>
-		    <a class="cv-button" href="https://elviraromashkina.com/assets/Elvira Romashkina - Senior Product Manager - CV.pdf" target="_blank" rel="noopener noreferrer" download>Download my CV</a>
+		    <a class="cv-button" href="https://elviraromashkina.com/assets/Elvira Romashkina - Senior Product Manager - CV.pdf" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'cv_clicked', {
+				'event_category': 'cv',
+				'event_label': 'Download CV Button'
+			  })" download>Download my CV</a>
     </section>
 	</div>
 
